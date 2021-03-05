@@ -1,0 +1,48 @@
+{ 
+    "collection" :
+    {
+        "author" :
+        {
+            "_id" : null,
+            "eMail" : "lalka@gmail.com",
+            "name" :  "Yaygeni",
+            "raiting" : 15
+        },
+        "rate" :
+        {
+            "_id" : null,
+            "score" : 5,
+            "review": "@review",
+            "text" : "sample text"
+        },   
+        "photo" :
+        {
+            "_id" : null,
+            "link" : "https://sample.com"
+        },
+        "post" :
+        {
+            "_id" : null,
+            "mark" : "volvo",
+            "model" : "s40",
+            "bodyType" : "wagon",
+            "engine" : "disel",
+            "engineCapacity" : 1600,
+            "color" : "red",
+            "price" : 8500,
+            "submissionDate" : "21.12.12",
+            "phone" : "+3752933333355",
+            "text" : "sample text"
+        },
+        "review" :
+        {
+            "_id" : null,
+            "text" : "sample text",
+            "photo" : "@photo",
+            "author" : "@author",
+            "post" : "@post"
+        }
+    
+    }
+
+}
